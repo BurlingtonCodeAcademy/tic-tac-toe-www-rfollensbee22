@@ -8,7 +8,7 @@ startButton.addEventListener("click", playGame);
 
 function playGame() {
     if (playerTurn = "x") {
-        document.getElementById("playero").style.display = "initial";
+        document.getElementById("playerx").style.display = "initial";
     }
 }
 

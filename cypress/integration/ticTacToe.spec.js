@@ -35,7 +35,7 @@ describe("Tic Tac Toe", () => {
     })
 
     it('the status area should say whose turn it is', ()=>{
-      cy.get('.status').get('p').contains("Player X's turn")
+      cy.get('.status').get('p').contains("Player X's turn").should('be.visible');
     })
   })
 
